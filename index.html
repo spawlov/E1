@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars/">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bolder" href="#">Моё хобби</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Обратная связь</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row px-3 mb-3">
+            <div class="col-sm-12">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <img src="img/some_img.jpg" class="my-img" alt="Сергей Павлов">
+                        <h5 class="card-title">Моё хобби</h5>
+                        <p class="card-text">
+                            С детства увлекался электроникой. Постепенно хобби превратилось в профессию. Стал
+                            разрабтчиком автоматических систем управления. Соответсвенно прямая связь с
+                            программированием
+                            микропроцессорных устройств. Отсюда написание программ на Ассемблер для своих разработок.
+                        </p>
+                        <p class="card-text">
+                            Дальше - больше. Промышленные контроллеры Siemens, Schneider Electrik - промышленные языки
+                            программирования и C.
+                        </p>
+                        <p class="card-text">
+                            Появились задачи визуализации технологических процессов. Как следствие Delphi.
+                        </p>
+                        <p class="card-text">
+                            Постепенно стал привлекать сектор web-программирования. Ну и пошло: сначала HTML и CSS. Но
+                            это скучно - подключился PHP и MySQL, благо опыт с Microsoft SQL в связке с Delphi уже был.
+                        </p>
+                        <p class="card-text">
+                            Сейчас немного паяю для себя, для дома небольшие устройства на разных ардунках и т.п. Вот
+                            такое хобби. Немнго еще напишу на странице <a class="text-pimary" href="about.html">о себе...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
