@@ -4,3 +4,11 @@
     max-height: 300px;
     padding: 5px 15px;
   }
+  .contacts {
+    list-style-type: none;
+  }
+
+  .contact-ico {
+    max-width: 48px;
+    padding: 5px 10px;
+  }
